@@ -11,12 +11,10 @@
 
 
 
-
-
  body{
      margin:0%;
      font-family: 'Anonymous Pro', monospace; 
-     background-color: rgba(174, 180, 180, 0.74);
+     background-color: rgba(174, 180, 180, 0.74)  !important;
     
  }
 
@@ -33,35 +31,11 @@
     width:50vw
   }
     
-    .background {
-        position:absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
-        
-       
-        
-       
-      }
-    /* .background {
-  
-        position:absolute;
-          
-        display:block;
-          
-        top: 0;
-          
-        left: 0;
-          
-        z-index: -1;
-        } */
-
+   
         
         
     .navbar {
-        width: 100vw;
+        width: 100%;
         height: 60px;
         top:0%;
 
@@ -111,8 +85,7 @@
     .topSection {
         /* padding-top:5vw; */
         
-        background-color: rgba(174, 180, 180, 0.74);
-        height:10000px;
+        
         padding-top: 100px;
         width:100vw;
         
@@ -137,11 +110,10 @@
     .typewriter {
     
         
-        
-        font-size: 3em;
-        justify-content: center;
+        font-size: 40px;
         white-space:nowrap;
         text-align: center;
+        width: 100vw;
        
        
         
@@ -207,7 +179,7 @@
 
     @keyframes typer {
         from{width:0}
-        to{width:180px}        
+        to{width:100%}        
     }
 
     @keyframes typer1 {
@@ -231,16 +203,17 @@
       }
 
     .my-info{
-       width: 100vw;
+      
        display:flex;
        justify-content: center;
+       
         
     }
 
     .my-info > p{
         font-size: 40px;
         text-align: center;
-        height:200px
+        
     }
 
 .topbuttons{
@@ -251,15 +224,47 @@
     
 }
 
+.dropdown{
+    display: none;
+}
+
 .btn{
     background-color: rgb(58, 70, 47) !important;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
-@media screen and (max-height: 200px) {
-    html,body {
-      background-color: blue !important;
-      color: white;
+@media screen and (max-width: 695px) {
+    .topbuttons{
+        display: none;  
     }
+
+    .dropdown{
+        display:flex;
+        margin-right: 60px ;
+    }
+
+    .dropdown ul{
+        
+    position:absolute;
+     
+    }
+  }
+
+  @media screen and (max-width: 776px) {
+    .typewriter {
+    
+        
+        
+        font-size: 33px;
+        justify-content: center;
+        white-space:nowrap;
+        text-align: center;
+       
+       
+        
+        
+    }
+   
+  
   }
