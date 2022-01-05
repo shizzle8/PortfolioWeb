@@ -13,11 +13,10 @@
 
  body{
      margin:0%;
-     font-family: 'Anonymous Pro', monospace; 
+     
      background-color: rgba(174, 180, 180, 0.74)  !important;
     
  }
-
 
  .divider{
      padding:40px 0 ;
@@ -206,12 +205,16 @@
       
        display:flex;
        justify-content: center;
+       padding-left: 5vw;
+       padding-right: 5vw;
+       font-size: 30px;
+       font-weight: 80px;
        
         
     }
 
     .my-info > p{
-        font-size: 40px;
+    
         text-align: center;
         
     }
