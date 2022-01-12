@@ -132,7 +132,7 @@
      
         width:0;
         
-        animation: typer1 2s steps(44) forwards;
+        animation: typer1 0.7s steps(44) forwards;
         
         
       
@@ -152,8 +152,8 @@
         overflow:hidden;
         width:0;
         
-        animation: typer2 2s steps(44) forwards;
-        animation-delay: 2s;
+        animation: typer2 0.7s steps(44) forwards;
+        animation-delay: 0.7s;
 
     }
 
@@ -165,8 +165,8 @@
         padding-left: 5px;
         overflow:hidden;
         width:0;
-        animation: typer3 2s steps(44) forwards;
-        animation-delay: 4s;
+        animation: typer3 0.7s steps(44) forwards;
+        animation-delay: 1.4s;
         
         
       
@@ -202,11 +202,10 @@
       }
 
     .my-info{
-      
-       display:flex;
-       justify-content: center;
-       padding-left: 5vw;
-       padding-right: 5vw;
+      display: flex;
+      justify-content: center;
+       padding-left: 10vw;
+       padding-right: 10vw;
        font-size: 30px;
        font-weight: 80px;
        
@@ -214,7 +213,7 @@
     }
 
     .my-info > p{
-    
+        max-width: 1500px;
         text-align: center;
         
     }
@@ -235,6 +234,56 @@
     background-color: rgb(58, 70, 47) !important;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+/*  Might not need   */
+
+.headadmination {
+    display: flex;
+    justify-content: center;
+    font-weight: 800; 
+    margin-bottom: 40px; 
+    font-size: 50px;
+    white-space:nowrap;
+    text-align: center;
+    width: 100vw;
+    text-decoration: underline;
+   
+   
+    
+    
+}
+
+.header1{
+    overflow:hidden;
+    width:0;
+    animation: typer3 5s steps(84) forwards;
+        
+}
+.logo-container{
+    padding: 50px;
+    margin-top: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+.logos{
+   
+   
+    font-size: 10em;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    column-gap: 300px;
+    row-gap: 200px;
+    
+
 }
 
 @media screen and (max-width: 695px) {
@@ -271,3 +320,18 @@
    
   
   }
+
+  @media screen and (max-width: 1118px) {
+    .logos {
+    
+        
+        
+        font-size: 10em;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        justify-content: center;
+        column-gap: 200px;
+        row-gap: 200px;
+    
+
+}}
