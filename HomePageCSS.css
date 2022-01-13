@@ -321,17 +321,19 @@
   
   }
 
-  @media screen and (max-width: 1118px) {
+  @media screen and (max-width: 1605px) {
     .logos {
     
         
         
-        font-size: 10em;
+        font-size: 7em;
         display: grid;
         grid-template-columns: auto auto auto ;
         justify-content: center;
-        column-gap: 200px;
-        row-gap: 200px;
+        column-gap: 100px;
+        row-gap: 100px;
+        margin-right: 85px;
+        
     
 
 }}
@@ -370,7 +372,7 @@
   
   /* Style the front side */
   .flip-box-front {
-    
+    color: rgb(6, 124, 85);
     
   }
   
