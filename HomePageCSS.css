@@ -13,9 +13,10 @@
 
  body{
      margin:0%;
-     
+     overflow-x: hidden; 
      background-color: rgba(174, 180, 180, 0.74)  !important;
-    
+   
+      
  }
 
  .divider{
@@ -286,6 +287,10 @@
 
 }
 
+.logo-container1{
+    display: none;
+}
+
 @media screen and (max-width: 695px) {
     .topbuttons{
         display: none;  
@@ -322,6 +327,7 @@
   }
 
   @media screen and (max-width: 1605px) {
+
     .logos {
     
         
@@ -330,13 +336,23 @@
         display: grid;
         grid-template-columns: auto auto auto ;
         justify-content: center;
-        column-gap: 100px;
+        column-gap: 38px;
         row-gap: 100px;
-        margin-right: 85px;
         
-    
+        
+        }
+        .logo-container1{
+            padding: 50px;
+            margin-top: 130px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .logo-container{
+            display: none;
+        }
 
-}}
+    }
 
 .flip-box {
     background-color: transparent;
