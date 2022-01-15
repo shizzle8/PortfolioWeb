@@ -6,7 +6,8 @@
 
 *{
     font-family: 'Anonymous Pro', monospace;
-
+    scroll-behavior: smooth;
+  
 }
 
 
@@ -201,6 +202,8 @@
         from{border-right-color: rgba(0, 0, 0, 0.75);}
         to{border-right-color: transparent;}
       }
+
+
 
     .my-info{
       display: flex;
