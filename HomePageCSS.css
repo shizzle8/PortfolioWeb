@@ -204,12 +204,9 @@ hr.rounded {
 .headadmination {
     display: flex;
     justify-content: center;
-    font-weight: 800;
-    margin-bottom: 40px;
-    font-size: 50px;
+    font-size: 35px;
     white-space: nowrap;
     text-align: center;
-    width: 100vw;
     text-decoration: underline;
 }
 
@@ -236,10 +233,17 @@ hr.rounded {
     }
 }
 
+.card {
+    transition: transform 450ms;
+}
+
+.card:hover {
+    transform: translateY(-16px);
+}
+
 @media screen and (max-width:1180px) {
     .logo-container1 {
-        padding: 50px;
-        margin-top: -50px;
+        /* margin-top: -50px; */
         text-align: center;
         display: flex;
         justify-content: center;
@@ -251,8 +255,7 @@ hr.rounded {
 
 @media screen and (min-width:1180px) {
     .logo-container {
-        padding: 50px;
-        margin-top: -50px;
+        /* margin-top: -50px; */
         text-align: center;
         display: flex;
         justify-content: center;
