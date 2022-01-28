@@ -352,3 +352,10 @@ hr.rounded {
     border-radius: 35%;
     margin-left: 80px;
 }
+
+.outline {
+    border: rgb(252, 37, 37);
+    border-style: solid;
+    border-radius: 1.9%;
+    border-width: thick;
+}
