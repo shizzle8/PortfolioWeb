@@ -359,3 +359,8 @@ hr.rounded {
     border-radius: 1.9%;
     border-width: thick;
 }
+
+.card-title {
+    text-decoration: underline;
+    font-weight: 800;
+}
