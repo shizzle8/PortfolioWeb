@@ -364,3 +364,26 @@ hr.rounded {
     text-decoration: underline;
     font-weight: 800;
 }
+
+.carousel {
+    width: 640px;
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+.carousel-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 900px;
+    height: 350px;
+    border: black;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    display: flexbox;
+    justify-content: center;
+    vertical-align: middle;
+}
