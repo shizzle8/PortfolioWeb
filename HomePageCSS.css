@@ -172,8 +172,8 @@ hr.rounded {
 .my-info {
     display: flex;
     justify-content: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
     font-size: 22px;
 }
 
@@ -262,6 +262,14 @@ hr.rounded {
     }
     .logo-container1 {
         display: none;
+    }
+    .project-container{
+        width:50% !important;
+        border:black;
+        border-style:dotted;
+        border-radius: 10% !important;
+        margin: 0 auto;
+    
     }
 }
 
@@ -366,24 +374,39 @@ hr.rounded {
 }
 
 .carousel {
+    padding-left: 30px;
+    padding-right: 30px;
     width: 640px;
     height: 300px;
     margin-bottom: 80px;
 }
 
 .carousel-container {
-    width: 100vw;
+    
     display: flex;
     justify-content: center;
 }
 
 .carousel-inner {
     width: 900px;
-    height: 350px;
+    height: 330px;
     border: black;
     border-style: solid;
     background-color: rgb(0, 0, 0);
     display: flexbox;
     justify-content: center;
     vertical-align: middle;
+    
+}
+
+
+
+.project-container{
+    border-radius: 10%;
+    border:black;
+    border-style: dotted;
+    margin: 0 auto;
+    width:80%;
+    background-color: rgba(149, 199, 127, 0.719);
+
 }
