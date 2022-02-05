@@ -44,7 +44,8 @@ hr.rounded {
     border: 5px solid;
     border-color: rgb(58, 70, 47);
     transition: 0.5s;
-    width: 200px
+    width: 200px;
+    height: 200px;
 }
 
 .realbutt {
@@ -178,7 +179,7 @@ hr.rounded {
 }
 
 .my-info>p {
-    max-width: 1500px;
+    max-width: 1300px;
     text-align: center;
 }
 
@@ -263,13 +264,12 @@ hr.rounded {
     .logo-container1 {
         display: none;
     }
-    .project-container{
-        width:50% !important;
-        border:black;
-        border-style:dotted;
+    .project-container {
+        width: 50% !important;
+        border: black;
+        border-style: dotted;
         border-radius: 10% !important;
         margin: 0 auto;
-    
     }
 }
 
@@ -382,7 +382,6 @@ hr.rounded {
 }
 
 .carousel-container {
-    
     display: flex;
     justify-content: center;
 }
@@ -396,17 +395,13 @@ hr.rounded {
     display: flexbox;
     justify-content: center;
     vertical-align: middle;
-    
 }
 
-
-
-.project-container{
+.project-container {
     border-radius: 10%;
-    border:black;
+    border: black;
     border-style: dotted;
     margin: 0 auto;
-    width:80%;
+    width: 80%;
     background-color: rgba(149, 199, 127, 0.719);
-
 }
