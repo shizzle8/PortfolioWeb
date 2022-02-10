@@ -4,7 +4,7 @@
 
 * {
     font-family: 'Anonymous Pro', monospace;
-    scroll-behavior: smooth;
+    scroll-behavior:auto;
     box-sizing: border-box;
 }
 
@@ -12,6 +12,7 @@ body {
     margin: 0%;
     overflow-x: hidden;
     background-color: rgba(174, 180, 180, 0.74) !important;
+    
 }
 
 .divider {
@@ -31,6 +32,7 @@ hr.rounded {
     width: 100%;
     height: 60px;
     top: 0%;
+    position: fixed;
 }
 
 .image {
@@ -173,8 +175,8 @@ hr.rounded {
 .my-info {
     display: flex;
     justify-content: center;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 22px;
 }
 
@@ -252,6 +254,9 @@ hr.rounded {
     .logo-container {
         display: none;
     }
+    .hover-info{
+        display:none;
+    }
 }
 
 @media screen and (min-width:1180px) {
@@ -270,6 +275,10 @@ hr.rounded {
         border-style: dotted;
         border-radius: 10% !important;
         margin: 0 auto;
+        max-width: 900px;
+    }
+    .hover-info1{
+        display:none;
     }
 }
 
@@ -405,3 +414,4 @@ hr.rounded {
     width: 80%;
     background-color: rgba(149, 199, 127, 0.719);
 }
+
