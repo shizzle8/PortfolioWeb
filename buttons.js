@@ -1,11 +1,8 @@
 
 // This script is just to create dynamic button scrolling for the nav buttons
 
-var mybutton = document.getElementById("skills");
-var mybutton = document.getElementById("top");
-var mybutton = document.getElementById("project");
 
-const yOffset = -1;
+
 
 function topFunction() {
   window.scrollTo(0, 0)
